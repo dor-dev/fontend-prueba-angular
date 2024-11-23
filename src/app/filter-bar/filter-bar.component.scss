@@ -1,0 +1,12 @@
+.podcast-count {
+  display: flex;
+  gap: .5rem;
+  justify-content: flex-end;
+  align-items: center;
+  span {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.10rem .25rem;
+    border-radius: .25rem;
+  }
+}

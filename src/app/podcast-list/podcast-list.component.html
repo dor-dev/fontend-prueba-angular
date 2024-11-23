@@ -1,0 +1,6 @@
+<app-filter-bar></app-filter-bar>
+<ul>
+  @for (podcast of podcasts; track podcast.title) {
+  <app-podcast-list-item [item]="podcast"></app-podcast-list-item>
+  }
+</ul>

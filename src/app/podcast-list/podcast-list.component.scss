@@ -1,0 +1,10 @@
+ul {
+  --list-item-margin-top: 25px;
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  > * {
+    flex: 1 1 160px;
+  }
+}
